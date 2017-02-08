@@ -11,12 +11,13 @@ HTML 4.01//EN"
 <meta http-equiv = "Content-Type" content = "text/html;
 charset = ISO-8859-1">
 <link rel = "stylesheet" type = "text/css" href = "style.css">
-<title> Any Co.: $title</title>
-<head>
+<title> Any Co.: $title </title>
+</head>
 <body>
-<h1>$title</h1>
-  END;
+<h1>$title</h1> 
+END;
   } 
+
  function ui_print_footer ($date){
 $date = htmlentities($date);
 echo <<< END
